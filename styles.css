@@ -1,4 +1,16 @@
-/* Sets all the text color to red! */
-body {
-    color: red;
+/* These styles are based on
+https://cdn.sstatic.net/js/third-party/japanese-l-u.js */
+span.tone-h {
+    border-top: 1px solid var(--text-accent);
+}
+span.tone-l-change {
+    border: solid var(--text-accent);
+    border-width: 0 0 1px 1px;
+}
+span.tone-l {
+    border-bottom: 1px solid var(--text-accent);
+}
+span.tone-h-change {
+    border: solid var(--text-accent);
+    border-width: 1px 0 0 1px;
 }
